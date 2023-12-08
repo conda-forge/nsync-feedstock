@@ -1,5 +1,5 @@
 {% set name = "nsync" %}
-{% set version = "1.25.0" %}
+{% set version = "1.26.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/google/{{ name }}/archive/{{ version }}.tar.gz
-  sha256: 2be9dbfcce417c7abcc2aa6fee351cd4d292518d692577e74a2c6c05b049e442
+  sha256: 80fc1e605bb3cf5f272811ece39c4fb6761ffcb9b30563301845cc9ff381eb8b
 
 build:
   number: 0
